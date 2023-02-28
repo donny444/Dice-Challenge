@@ -1,21 +1,28 @@
-*{
-    background-color: grey;
+body{
+    background-color: #0000ff;
+    text-align: center;
+    margin: 0;
+    border: 25px solid #2f4f4f;
 }
 #heading{
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2f4f4f;
 }
 .game{
-    margin-left: 30%;
-    border: 5px solid lightgrey;
-}
-.p1,.p2{
-    text-align: center;
     display: inline-block;
-    color: whitesmoke;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 4px solid #ffff00;
+    padding-top: 12.5px;
+}
+.dice{
+    display: inline-block;
+    padding: 0 30px;
+    position: relative;
+}
+#p1,#p2{
+    color: #2f4f4f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 footer{
-    text-align: center;
-    color: whitesmoke
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2f4f4f;
 }
